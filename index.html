@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Python Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav id="navbar">
+        <header>Python Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a> </li>
+            <li><a class="nav-link" href="#Getting_Started">Getting Started</a> </li>
+            <li><a class="nav-link" href="#Variables">Variables</a> </li>
+            <li><a class="nav-link" href="#Control_Flow">Control Flow</a> </li>
+            <li><a class="nav-link" href="#Functions">Functions</a> </li>
+
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Python is a high-level, interpreted programming language with a clear and readable syntax. It was created by Guido van Rossum and first released in 1991.</p>
+            <p>Python supports multiple programming paradigms including procedural, object-oriented, and functional programming. It is known for its use in a wide variety of domains such as web development, data science, artificial intelligence, and automation.</p>
+        </section>
+        <section class="main-section" id="Getting_Started">
+            <header>Getting Started</header>
+            <p>To get started with Python, download and install it from the <a href="https://www.python.org" target="_blank">official Python website</a>. Python 3.x is the latest version and is recommended for all new projects.</p>
+            <p>After installation, open a terminal and verify your installation:</p>
+            <code>python --version</code>
+            <p>You can start writing Python programs in any text editor and save the file with a `.py` extension. To run your script, use:</p>
+            <code>python your_script_name.py</code>            
+
+        </section>
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>In Python, variables are used to store information that can be referenced and manipulated later. Python is dynamically typed, which means you don't have to specify the type of variable.</p>
+            <p>Here’s how you declare and use variables:</p>
+            <code>
+                x = 10<br>
+                name = "Alice"<br>
+                pi = 3.14
+            </code>
+            <p>You can change the value and type of a variable at any time in your code.</p>
+
+        </section>
+        <section class="main-section" id="Control_Flow">
+            <header>Control Flow</header>
+            <p>Python provides control flow statements such as `if`, `elif`, and `else` to allow decision-making in your programs.</p>
+            <p>Example:</p>
+            <code>
+                x = 5<br>
+                if x > 0:<br>
+                &nbsp;&nbsp;print("Positive")<br>
+                else:<br>
+                &nbsp;&nbsp;print("Negative")
+
+            </code>
+            <p>Indentation is very important in Python and defines blocks of code.</p>
+
+        </section>
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p>Functions are reusable blocks of code that perform a specific task. In Python, you define a function using the <code>def</code> keyword.</p>
+            <p>Example:</p>
+            <code>
+                def greet(name):<br>
+                &nbsp;&nbsp;return "Hello, " + name<br><br>
+                print(greet("Alice"))
+            </code>
+            <p>Functions can take parameters, return values, and help organize your code better for reusability and clarity.</p>
+        </section>
+
+
+    </main>
+</body>
+</html>
